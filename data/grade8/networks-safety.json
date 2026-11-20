@@ -1,0 +1,27 @@
+{
+"grade": 8,
+"topic": "networks-safety",
+"title": "Networks & Internet Safety",
+"questions": [
+{"id":"g8-net-01","type":"mcq","difficulty":"easy","q":"What does a router do?","options":["Directs data between networks, for example from a home network to the internet","Stores web pages","Protects the screen from damage","Displays web pages"],"answer":0},
+{"id":"g8-net-02","type":"mcq","difficulty":"medium","q":"What is an IP address?","options":["A unique number that identifies a device on a network","The name of a web browser","A type of malware","A password for a website"],"answer":0},
+{"id":"g8-net-03","type":"mcq","difficulty":"medium","q":"What does a DNS server do?","options":["Stores a user's files","Blocks unwanted emails","Translates domain names into IP addresses","Sends emails"],"answer":2},
+{"id":"g8-net-04","type":"mcq","difficulty":"medium","q":"What does a firewall do?","options":["Speeds up the internet","Deletes old emails","Stores web pages","Monitors network traffic and blocks unwanted connections"],"answer":3},
+{"id":"g8-net-05","type":"mcq","difficulty":"medium","q":"Which type of malware secretly collects information about what a user does?","options":["A router","Spyware","Spam","A firewall"],"answer":1},
+{"id":"g8-net-06","type":"mcq","difficulty":"hard","q":"Which is an advantage of a wired (Ethernet) connection compared with Wi-Fi?","options":["It is cheaper to install in every case","It needs no cables","It is usually faster and more stable","It lets you move around freely"],"answer":2},
+{"id":"g8-net-07","type":"tf","difficulty":"medium","q":"A switch connects devices in a LAN and sends data only to the device that needs it.","answer":true},
+{"id":"g8-net-08","type":"tf","difficulty":"medium","q":"A URL and an IP address are the same thing.","answer":false,"explain":"A URL is a web address that is easy to read; an IP address is the numeric address of a device."},
+{"id":"g8-net-09","type":"tf","difficulty":"easy","q":"Bandwidth is the amount of data that can be sent over a connection in a given time.","answer":true},
+{"id":"g8-net-10","type":"tf","difficulty":"easy","q":"Using public Wi-Fi without any protection is completely safe.","answer":false},
+{"id":"g8-net-11","type":"fill","difficulty":"medium","q":"A ____ address looks like 192.168.1.10.","answer":["IP"]},
+{"id":"g8-net-12","type":"fill","difficulty":"medium","q":"In the URL www.school.org, the part 'school.org' is the ____ name.","answer":["domain"]},
+{"id":"g8-net-13","type":"fill","difficulty":"easy","q":"Storing and accessing files over the internet instead of on your own device is called ____ storage.","answer":["cloud"]},
+{"id":"g8-net-14","type":"fill","difficulty":"medium","q":"A device connects to a network using a network interface ____ (NIC).","answer":["card"]},
+{"id":"g8-net-15","type":"short","difficulty":"medium","q":"Explain the difference between a LAN and a WAN.","answer":"A LAN covers a small area such as a school or building (1); a WAN covers a large area, such as a country or the world, and often uses public/leased lines (1).","marks":2},
+{"id":"g8-net-16","type":"short","difficulty":"medium","q":"Describe two ways to protect a computer from malware.","answer":"Any two from: install and update antivirus software; use a firewall; keep the operating system updated; do not open unknown email attachments or links; only download from trusted sites.","marks":2},
+{"id":"g8-net-17","type":"short","difficulty":"hard","q":"Explain what phishing is and how you can recognise a phishing email.","answer":"Phishing is a scam that tricks people into giving away personal details such as passwords (1). Clues (any two): urgent threats; asks for personal details; suspicious link or sender address; spelling mistakes (1 mark each).","marks":3},
+{"id":"g8-net-18","type":"match","difficulty":"easy","q":"Match each network device to its job.","pairs":[["Router","Connects networks and directs data"],["Switch","Connects devices within a LAN"],["NIC","Lets a device connect to a network"],["Wireless access point","Provides a Wi-Fi connection"]]},
+{"id":"g8-net-19","type":"match","difficulty":"medium","q":"Match each type of malware to its description.","pairs":[["Virus","Attaches itself to files and spreads when they are shared"],["Trojan","Pretends to be useful software but does harm"],["Spyware","Secretly records what the user does"],["Ransomware","Locks files and demands payment"]]},
+{"id":"g8-net-20","type":"match","difficulty":"hard","q":"The web address is https://www.school.org/contact. Match each part to its meaning.","pairs":[["https","The protocol (secure way of sending data)"],["www.school.org","The domain name"],["/contact","The path to a page on the site"],[".org","The top-level domain"]]}
+]
+}

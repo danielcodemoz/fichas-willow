@@ -1,0 +1,27 @@
+{
+"grade": 7,
+"topic": "algorithms-flowcharts",
+"title": "Algorithms & Flowcharts",
+"questions": [
+{"id":"g7-alg-01","type":"mcq","difficulty":"easy","q":"What is an algorithm?","options":["A step-by-step set of instructions to solve a problem","A fast computer processor","A type of computer virus","A drawing of a computer"],"answer":0},
+{"id":"g7-alg-02","type":"mcq","difficulty":"easy","q":"In a flowchart, which shape is used for a decision (a yes/no question)?","options":["Parallelogram","Oval","Rectangle","Diamond"],"answer":3},
+{"id":"g7-alg-03","type":"mcq","difficulty":"easy","q":"Which flowchart shape is used for INPUT or OUTPUT?","options":["Rounded rectangle","Diamond","Parallelogram","Circle"],"answer":2},
+{"id":"g7-alg-04","type":"mcq","difficulty":"medium","q":"Breaking a big problem into smaller, easier parts is called...","options":["abstraction","decomposition","debugging","iteration"],"answer":1},
+{"id":"g7-alg-05","type":"mcq","difficulty":"medium","q":"Which list of steps is in the correct order for making a cup of tea?","options":["Wait, put tea bag in cup, remove tea bag, boil water","Pour water, boil water, put tea bag in cup, wait","Boil water, put tea bag in cup, pour water, wait, remove tea bag","Remove tea bag, wait, pour water, boil water"],"answer":2},
+{"id":"g7-alg-06","type":"mcq","difficulty":"hard","q":"An algorithm says: 1. Input a number. 2. Add 5. 3. Double the result. 4. Output the answer. If the input is 3, what is the output?","options":["21","16","13","11"],"answer":1,"explain":"(3 + 5) x 2 = 16"},
+{"id":"g7-alg-07","type":"tf","difficulty":"easy","q":"A flowchart uses arrows to show the order of the steps.","answer":true},
+{"id":"g7-alg-08","type":"tf","difficulty":"easy","q":"The order of the steps in an algorithm does not matter.","answer":false},
+{"id":"g7-alg-09","type":"tf","difficulty":"medium","q":"Decomposition means making a problem more complicated.","answer":false},
+{"id":"g7-alg-10","type":"tf","difficulty":"medium","q":"Pseudocode looks like a program but is not tied to one particular programming language.","answer":true},
+{"id":"g7-alg-11","type":"fill","difficulty":"easy","q":"A diagram that shows an algorithm using shapes and arrows is called a ____.","answer":["flowchart"]},
+{"id":"g7-alg-12","type":"fill","difficulty":"easy","q":"Breaking a problem into smaller parts is called ____.","answer":["decomposition"]},
+{"id":"g7-alg-13","type":"fill","difficulty":"medium","q":"In a flowchart, the ____ shape contains a question with a Yes/No answer.","answer":["diamond (decision)"]},
+{"id":"g7-alg-14","type":"fill","difficulty":"easy","q":"A mistake in an algorithm or program is called a ____.","answer":["bug (error)"]},
+{"id":"g7-alg-15","type":"short","difficulty":"medium","q":"Write an algorithm, as numbered steps, to find the larger of two numbers.","answer":"1 Start. 2 Input number A and number B. 3 If A > B then output A, otherwise output B. 4 Stop. (1 mark for input, 1 mark for comparing, 1 mark for output of the larger.)","marks":3},
+{"id":"g7-alg-16","type":"short","difficulty":"medium","q":"Explain why it is useful to draw a flowchart before writing a program.","answer":"Any two from: it shows the logic clearly; mistakes can be found and fixed early; it is easier to explain the plan to other people; it makes the program easier to write.","marks":2},
+{"id":"g7-alg-17","type":"short","difficulty":"hard","q":"State two features of a good algorithm.","answer":"Any two from: clear, unambiguous steps; steps in the correct order; it finishes (has an end); it solves the problem correctly.","marks":2},
+{"id":"g7-alg-18","type":"match","difficulty":"easy","q":"Match each flowchart shape to its meaning.","pairs":[["Rounded rectangle (oval)","Start or Stop"],["Rectangle","Process (a calculation or action)"],["Diamond","Decision"],["Parallelogram","Input or output"]]},
+{"id":"g7-alg-19","type":"match","difficulty":"medium","q":"Match each term to its meaning.","pairs":[["Algorithm","Step-by-step instructions to solve a problem"],["Flowchart","A diagram of an algorithm"],["Decomposition","Breaking a problem into smaller parts"],["Bug","A mistake in a program"]]},
+{"id":"g7-alg-20","type":"match","difficulty":"medium","q":"Match each computational thinking skill to its meaning.","pairs":[["Decomposition","Breaking a problem into smaller parts"],["Pattern recognition","Finding things that are similar or repeat"],["Abstraction","Ignoring unnecessary details"],["Algorithm design","Writing step-by-step instructions"]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"grade": 9,
+"topic": "programming",
+"title": "Programming Basics (Python & Scratch)",
+"questions": [
+{"id":"g9-prog-01","type":"mcq","difficulty":"easy","q":"What does this code display?","options":["7","8","len","computer"],"answer":1,"code":"print(len('computer'))"},
+{"id":"g9-prog-02","type":"mcq","difficulty":"medium","q":"What does this code display?","options":["9","3","1","6"],"answer":3,"code":"nums = [3, 6, 9]\nprint(nums[1])","explain":"List positions (indexes) start at 0, so nums[1] is the second item."},
+{"id":"g9-prog-03","type":"mcq","difficulty":"easy","q":"Which keyword is used to define a function in Python?","options":["def","function","define","func"],"answer":0},
+{"id":"g9-prog-04","type":"mcq","difficulty":"medium","q":"Which of these is a logic error?","options":["Writing prnt instead of print","Dividing a number by zero","Forgetting a closing bracket","A program to find the area of a rectangle adds the length and width instead of multiplying them"],"answer":3},
+{"id":"g9-prog-05","type":"mcq","difficulty":"medium","q":"What does this code display?","options":["An error message","False","True","5"],"answer":1,"code":"print(5 > 3 and 2 > 4)"},
+{"id":"g9-prog-06","type":"mcq","difficulty":"hard","q":"What does this code display?","options":["4","6","15","10"],"answer":3,"code":"total = 0\nfor i in range(1, 5):\n    total = total + i\nprint(total)","explain":"range(1, 5) gives 1, 2, 3, 4 (it stops before 5). 1 + 2 + 3 + 4 = 10."},
+{"id":"g9-prog-07","type":"tf","difficulty":"easy","q":"A function can be called many times in a program.","answer":true},
+{"id":"g9-prog-08","type":"tf","difficulty":"medium","q":"List positions (indexes) in Python start at 1.","answer":false,"explain":"The first item of a list is at index 0."},
+{"id":"g9-prog-09","type":"tf","difficulty":"medium","q":"A parameter is a value that is passed into a function.","answer":true},
+{"id":"g9-prog-10","type":"tf","difficulty":"hard","q":"A syntax error is only found while the program is running.","answer":false,"explain":"Syntax errors are found before the program starts to run."},
+{"id":"g9-prog-11","type":"fill","difficulty":"medium","q":"In Python, the first item in a list is at index ____.","answer":["0"]},
+{"id":"g9-prog-12","type":"fill","difficulty":"easy","q":"A named block of code that can be used again and again is called a ____.","answer":["function"]},
+{"id":"g9-prog-13","type":"fill","difficulty":"medium","q":"The Boolean operator ____ is True only when both conditions are True.","answer":["and"]},
+{"id":"g9-prog-14","type":"fill","difficulty":"medium","q":"To add an item to the end of a list we use the ____() method.","answer":["append"]},
+{"id":"g9-prog-15","type":"short","difficulty":"medium","q":"Write a Python function called double that takes a number and returns the number multiplied by 2.","answer":"def double(n): (1); return n * 2 (1); correct indentation/syntax (1).","marks":3},
+{"id":"g9-prog-16","type":"short","difficulty":"medium","q":"Explain the difference between a syntax error and a logic error.","answer":"A syntax error breaks the rules of the language so the program will not run (1); a logic error lets the program run but it gives the wrong result (1).","marks":2},
+{"id":"g9-prog-17","type":"short","difficulty":"hard","q":"Explain two benefits of using functions in a program.","answer":"Any two from: code can be reused instead of repeated; the program is easier to read and test; a problem can be broken into smaller parts; errors are easier to find and fix.","marks":2},
+{"id":"g9-prog-18","type":"match","difficulty":"medium","q":"Match each Python item to what it does.","pairs":[["append()","Adds an item to the end of a list"],["len()","Gives the number of items or characters"],["range()","Produces a sequence of numbers"],["upper()","Changes text to capital letters"]]},
+{"id":"g9-prog-19","type":"match","difficulty":"medium","q":"Match each Boolean operator to its meaning.","pairs":[["and","True if both conditions are true"],["or","True if at least one condition is true"],["not","Reverses True and False"],["==","True if two values are equal"]]},
+{"id":"g9-prog-20","type":"match","difficulty":"hard","q":"Match each term to its meaning.","pairs":[["Parameter","A variable that receives a value passed into a function"],["Return value","The result a function sends back"],["Local variable","A variable that exists only inside a function"],["Function call","Using the function's name to run it"]]}
+]
+}

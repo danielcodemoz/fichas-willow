@@ -1,0 +1,27 @@
+{
+"grade": 9,
+"topic": "networks-safety",
+"title": "Networks & Internet Safety",
+"questions": [
+{"id":"g9-net-01","type":"mcq","difficulty":"easy","q":"Which protocol is used to load web pages securely?","options":["FTP","HTTP","HTTPS","SMTP"],"answer":2},
+{"id":"g9-net-02","type":"mcq","difficulty":"medium","q":"What is a packet?","options":["A program that stores emails","A type of network cable","A small chunk of data sent across a network","A password"],"answer":2},
+{"id":"g9-net-03","type":"mcq","difficulty":"medium","q":"What does encryption do to data?","options":["Scrambles it so that only authorised people can read it","Turns it into a picture","Deletes it after use","Makes it download faster"],"answer":0},
+{"id":"g9-net-04","type":"mcq","difficulty":"medium","q":"Two-factor authentication means that...","options":["the user must give two different kinds of proof of identity to log in","two people share one account","the user must log in twice with the same password","the password is stored twice"],"answer":0},
+{"id":"g9-net-05","type":"mcq","difficulty":"hard","q":"In which network topology are all devices connected to a central switch?","options":["Bus","Ring","Mesh","Star"],"answer":3},
+{"id":"g9-net-06","type":"mcq","difficulty":"medium","q":"In a client-server network, what does the server do?","options":["Prints all the documents","Provides files or services to the client computers","Sends data only to other servers","Has no connection to clients"],"answer":1},
+{"id":"g9-net-07","type":"tf","difficulty":"easy","q":"TCP/IP is a set of rules (protocols) that allows devices to communicate over the internet.","answer":true},
+{"id":"g9-net-08","type":"tf","difficulty":"medium","q":"HTTP encrypts all data that is sent between a browser and a website.","answer":false,"explain":"HTTP does not encrypt data; HTTPS does."},
+{"id":"g9-net-09","type":"tf","difficulty":"medium","q":"In a peer-to-peer network all computers have equal status and no central server is needed.","answer":true},
+{"id":"g9-net-10","type":"tf","difficulty":"medium","q":"A DDoS attack tries to overwhelm a server with so much traffic that it becomes unavailable.","answer":true},
+{"id":"g9-net-11","type":"fill","difficulty":"medium","q":"The protocol SMTP is used for ____ email.","answer":["sending"]},
+{"id":"g9-net-12","type":"fill","difficulty":"easy","q":"The rules that allow devices to communicate with each other are called ____.","answer":["protocols"]},
+{"id":"g9-net-13","type":"fill","difficulty":"easy","q":"Scrambling data so that it cannot be understood if it is intercepted is called ____.","answer":["encryption"]},
+{"id":"g9-net-14","type":"fill","difficulty":"hard","q":"An attack that floods a server with requests so it cannot respond to real users is a ____ of ____ attack.","answer":["denial","service"]},
+{"id":"g9-net-15","type":"short","difficulty":"hard","q":"Explain how a file is sent across the internet as packets.","answer":"The file is split into packets (1); each packet has an address/number and may take a different route (1); the packets are reassembled in the correct order at the destination (1).","marks":3},
+{"id":"g9-net-16","type":"short","difficulty":"medium","q":"State two differences between a client-server network and a peer-to-peer network.","answer":"Any two from: client-server has a central server but peer-to-peer does not; client-server is easier to manage/secure centrally; peer-to-peer computers share resources equally; client-server is usually more expensive to set up.","marks":2},
+{"id":"g9-net-17","type":"short","difficulty":"medium","q":"Explain why HTTPS is more secure than HTTP.","answer":"HTTPS encrypts the data (1) so that anyone who intercepts it cannot read it (1).","marks":2},
+{"id":"g9-net-18","type":"match","difficulty":"medium","q":"Match each protocol to its use.","pairs":[["HTTP","Loading web pages"],["HTTPS","Loading web pages securely"],["SMTP","Sending email"],["FTP","Transferring files"]]},
+{"id":"g9-net-19","type":"match","difficulty":"medium","q":"Match each threat to its description.","pairs":[["Phishing","Fake messages that trick people into giving details"],["DDoS","Flooding a server with traffic"],["Brute force","Trying many passwords until one works"],["Social engineering","Tricking people into giving access or information"]]},
+{"id":"g9-net-20","type":"match","difficulty":"hard","q":"Match each network topology to its description.","pairs":[["Star","All devices connect to a central switch"],["Bus","All devices share one main cable"],["Mesh","Devices are connected to many other devices"],["Ring","Each device connects to two neighbours, forming a loop"]]}
+]
+}

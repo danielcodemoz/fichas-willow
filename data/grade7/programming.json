@@ -1,0 +1,27 @@
+{
+"grade": 7,
+"topic": "programming",
+"title": "Programming Basics (Python & Scratch)",
+"questions": [
+{"id":"g7-prog-01","type":"mcq","difficulty":"easy","q":"In Scratch, which block category contains the block 'move 10 steps'?","options":["Sound","Motion","Events","Looks"],"answer":1},
+{"id":"g7-prog-02","type":"mcq","difficulty":"easy","q":"What does this Python code display?","options":["\"Hello\" with the quotation marks","Hello","print Hello","Nothing, it causes an error"],"answer":1,"code":"print('Hello')"},
+{"id":"g7-prog-03","type":"mcq","difficulty":"medium","q":"Which Python function is used to get text typed in by the user?","options":["output()","get()","input()","print()"],"answer":2},
+{"id":"g7-prog-04","type":"mcq","difficulty":"medium","q":"A variable is...","options":["a mistake in a program","a type of loop","a picture used in a game","a named place in memory that stores a value"],"answer":3},
+{"id":"g7-prog-05","type":"mcq","difficulty":"medium","q":"In Scratch, which block repeats the blocks inside it a set number of times?","options":["when flag clicked","say Hello","repeat 10","wait 1 seconds"],"answer":2},
+{"id":"g7-prog-06","type":"mcq","difficulty":"hard","q":"What does this code display?","options":["Hi Sam","HiSam","Hi + name","Hi name"],"answer":0,"code":"name = 'Sam'\nprint('Hi ' + name)"},
+{"id":"g7-prog-07","type":"tf","difficulty":"easy","q":"A loop lets a program repeat instructions.","answer":true},
+{"id":"g7-prog-08","type":"tf","difficulty":"medium","q":"In Python, print() is used to take in input from the keyboard.","answer":false,"explain":"print() displays output; input() takes input."},
+{"id":"g7-prog-09","type":"tf","difficulty":"easy","q":"A sprite in Scratch is a character or object that can be programmed.","answer":true},
+{"id":"g7-prog-10","type":"tf","difficulty":"hard","q":"In Python, print and Print mean exactly the same thing.","answer":false,"explain":"Python is case-sensitive: only print works."},
+{"id":"g7-prog-11","type":"fill","difficulty":"easy","q":"In Scratch, the 'when green flag clicked' block is an ____ block.","answer":["event"]},
+{"id":"g7-prog-12","type":"fill","difficulty":"easy","q":"A named place in memory that stores a value is called a ____.","answer":["variable"]},
+{"id":"g7-prog-13","type":"fill","difficulty":"easy","q":"In Python, the ____ function displays text on the screen.","answer":["print"]},
+{"id":"g7-prog-14","type":"fill","difficulty":"medium","q":"In Python, text inside quotation marks is called a ____.","answer":["string"]},
+{"id":"g7-prog-15","type":"short","difficulty":"medium","q":"Explain what a variable is and give one example from a program.","answer":"A variable is a named storage location in memory that holds a value that can change (1). Example: score = 0 or name = 'Sam' (1).","marks":2},
+{"id":"g7-prog-16","type":"short","difficulty":"medium","q":"State the difference between print() and input() in Python.","answer":"print() displays something on the screen (output) (1); input() waits for the user to type something and stores it (1).","marks":2},
+{"id":"g7-prog-17","type":"short","difficulty":"hard","q":"A Scratch script says: when flag clicked, repeat 4 times { move 100 steps, turn 90 degrees }. Describe what the sprite does.","answer":"The sprite moves 100 steps and turns 90 degrees four times (1), so it draws/walks a square and ends where it started (1).","marks":2},
+{"id":"g7-prog-18","type":"match","difficulty":"easy","q":"Match each Python item to what it does.","pairs":[["print()","Displays output on the screen"],["input()","Asks the user to type something"],["#","Starts a comment"],["=","Stores a value in a variable"]]},
+{"id":"g7-prog-19","type":"match","difficulty":"medium","q":"Match each Scratch block category to an example block.","pairs":[["Motion","move 10 steps"],["Looks","say Hello!"],["Sound","play sound Meow"],["Control","repeat 10"]]},
+{"id":"g7-prog-20","type":"match","difficulty":"medium","q":"Match each data type to an example value.","pairs":[["Integer","42"],["String","'Hello'"],["Float (decimal)","3.14"],["Boolean","True"]]}
+]
+}

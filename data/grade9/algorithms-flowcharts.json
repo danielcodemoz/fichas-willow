@@ -1,0 +1,27 @@
+{
+"grade": 9,
+"topic": "algorithms-flowcharts",
+"title": "Algorithms & Flowcharts",
+"questions": [
+{"id":"g9-alg-01","type":"mcq","difficulty":"medium","q":"What must be true about a list before a binary search can be used?","options":["It must be sorted","It must be stored in ROM","It must have an odd number of items","It must contain only numbers over 100"],"answer":0},
+{"id":"g9-alg-02","type":"mcq","difficulty":"medium","q":"A bubble sort is used on the list [5, 2, 4]. What does the list look like after the first pass?","options":["[2, 5, 4]","[2, 4, 5]","[5, 2, 4]","[4, 2, 5]"],"answer":1,"explain":"5 and 2 swap -> [2,5,4]; 5 and 4 swap -> [2,4,5]."},
+{"id":"g9-alg-03","type":"mcq","difficulty":"easy","q":"Which of these is a validation check?","options":["A range check","A spelling check","A virus check","A print preview"],"answer":0},
+{"id":"g9-alg-04","type":"mcq","difficulty":"medium","q":"A binary search looks for 17 in [2, 5, 8, 11, 14, 17, 20]. Which value is checked first?","options":["2","17","8","11"],"answer":3},
+{"id":"g9-alg-05","type":"mcq","difficulty":"medium","q":"What is a trace table used for?","options":["Storing data in a spreadsheet","Translating a program into machine code","Showing the shape of a flowchart","Recording the values of variables at each step to find errors"],"answer":3},
+{"id":"g9-alg-06","type":"mcq","difficulty":"hard","q":"What is the final output of this algorithm?","options":["64","20","32","16"],"answer":2,"code":"x = 1\nWHILE x < 20\n    x = x * 2\nENDWHILE\nOUTPUT x","explain":"x goes 1, 2, 4, 8, 16, 32; the loop stops when x is 32."},
+{"id":"g9-alg-07","type":"tf","difficulty":"medium","q":"A binary search is generally faster than a linear search on a large sorted list.","answer":true},
+{"id":"g9-alg-08","type":"tf","difficulty":"medium","q":"Validation checks that the data entered is correct and true.","answer":false,"explain":"Validation only checks that data is reasonable (e.g. within a range); it cannot check that it is true."},
+{"id":"g9-alg-09","type":"tf","difficulty":"medium","q":"A bubble sort compares items that are next to each other.","answer":true},
+{"id":"g9-alg-10","type":"tf","difficulty":"easy","q":"A nested loop is a loop inside another loop.","answer":true},
+{"id":"g9-alg-11","type":"fill","difficulty":"medium","q":"A ____ search repeatedly halves the list to find an item.","answer":["binary"]},
+{"id":"g9-alg-12","type":"fill","difficulty":"easy","q":"Checking that data is sensible, such as an age between 0 and 120, is called ____.","answer":["validation"]},
+{"id":"g9-alg-13","type":"fill","difficulty":"medium","q":"Following an algorithm with test data and writing the values in a table is called a ____ table.","answer":["trace"]},
+{"id":"g9-alg-14","type":"fill","difficulty":"medium","q":"The ____ sort repeatedly swaps neighbouring items that are in the wrong order.","answer":["bubble"]},
+{"id":"g9-alg-15","type":"short","difficulty":"medium","q":"Write pseudocode to input 5 numbers and output their total.","answer":"total = 0 (1); loop 5 times with INPUT and total = total + number (1); OUTPUT total after the loop (1).","marks":3},
+{"id":"g9-alg-16","type":"short","difficulty":"hard","q":"Explain why a binary search is more efficient than a linear search on a large sorted list.","answer":"A binary search halves the number of items to check each time (1); a linear search may have to check every item (1).","marks":2},
+{"id":"g9-alg-17","type":"short","difficulty":"medium","q":"Describe what validation is and give one example.","answer":"Validation checks that data entered is sensible/allowed (1); example: range check, length check, presence check or type check (1).","marks":2},
+{"id":"g9-alg-18","type":"match","difficulty":"medium","q":"Match each algorithm to its description.","pairs":[["Linear search","Checks each item in turn"],["Binary search","Repeatedly halves a sorted list"],["Bubble sort","Swaps neighbouring items that are out of order"],["Merge sort","Splits the list, sorts the parts and merges them"]]},
+{"id":"g9-alg-19","type":"match","difficulty":"medium","q":"Match each validation check to its purpose.","pairs":[["Range check","Data is between a lowest and highest value"],["Length check","Data has an allowed number of characters"],["Presence check","Data has not been left blank"],["Type check","Data is the correct data type"]]},
+{"id":"g9-alg-20","type":"match","difficulty":"hard","q":"Match each standard algorithm to what it does.","pairs":[["Totalling","Adds each value to a running total"],["Counting","Adds 1 each time something happens"],["Finding the maximum","Compares each value with the largest so far"],["Averaging","Divides the total by the number of values"]]}
+]
+}

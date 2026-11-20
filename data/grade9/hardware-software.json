@@ -1,0 +1,27 @@
+{
+"grade": 9,
+"topic": "hardware-software",
+"title": "Hardware & Software",
+"questions": [
+{"id":"g9-hw-01","type":"mcq","difficulty":"medium","q":"What is the main idea of the Von Neumann architecture?","options":["Programs are stored only on the hard disk","Every instruction is processed by a separate computer","Programs and data are stored together in main memory and instructions are fetched one at a time","Data is never stored in memory"],"answer":2},
+{"id":"g9-hw-02","type":"mcq","difficulty":"medium","q":"Which change would most help a CPU to run several tasks at the same time?","options":["Using a longer keyboard cable","Adding more USB ports","Adding more cores","Using a bigger monitor"],"answer":2},
+{"id":"g9-hw-03","type":"mcq","difficulty":"medium","q":"Which is an advantage of an SSD compared with an HDD?","options":["Faster access to data and no moving parts","It stores data on spinning magnetic disks","It is always cheaper per gigabyte","It always has a larger capacity"],"answer":0},
+{"id":"g9-hw-04","type":"mcq","difficulty":"medium","q":"What does a compiler do?","options":["Runs the program one line at a time","Translates the whole program into machine code before it is run","Checks the spelling of comments","Stores the program in RAM"],"answer":1},
+{"id":"g9-hw-05","type":"mcq","difficulty":"easy","q":"What is the job of a device driver?","options":["To protect the computer from viruses","To let the operating system communicate with a piece of hardware","To compress files","To increase the amount of RAM"],"answer":1},
+{"id":"g9-hw-06","type":"mcq","difficulty":"hard","q":"What is virtual memory?","options":["Part of secondary storage used as extra memory when RAM is full","A faster type of cache","Memory that exists only inside the CPU","Memory that never loses its data"],"answer":0},
+{"id":"g9-hw-07","type":"tf","difficulty":"hard","q":"The program counter holds the address of the next instruction to be fetched.","answer":true},
+{"id":"g9-hw-08","type":"tf","difficulty":"medium","q":"An interpreter translates and runs a program one line at a time.","answer":true},
+{"id":"g9-hw-09","type":"tf","difficulty":"medium","q":"Firmware is software stored on a device, for example in a router, that controls how it works.","answer":true},
+{"id":"g9-hw-10","type":"tf","difficulty":"medium","q":"Cache memory is slower than RAM.","answer":false,"explain":"Cache is faster than RAM, which is why it is placed close to the CPU."},
+{"id":"g9-hw-11","type":"fill","difficulty":"medium","q":"The ____ is the part of the CPU that performs arithmetic and logic operations.","answer":["ALU (arithmetic logic unit)"]},
+{"id":"g9-hw-12","type":"fill","difficulty":"medium","q":"A ____ translates a high-level program into machine code in one go.","answer":["compiler"]},
+{"id":"g9-hw-13","type":"fill","difficulty":"easy","q":"Very fast memory built into or very close to the CPU that stores frequently used data is called ____ memory.","answer":["cache"]},
+{"id":"g9-hw-14","type":"fill","difficulty":"easy","q":"Instructions are stored in main memory as ____ code, which is made of 1s and 0s.","answer":["machine"]},
+{"id":"g9-hw-15","type":"short","difficulty":"medium","q":"Explain how increasing the amount of RAM can improve a computer's performance.","answer":"More programs and data can be held in RAM at once (1); so the computer uses slow secondary storage / virtual memory less often (1).","marks":2},
+{"id":"g9-hw-16","type":"short","difficulty":"medium","q":"Give two differences between an HDD and an SSD.","answer":"Any two from: HDD has moving parts but SSD has none; SSD is faster to read/write; SSD is quieter and uses less power; HDD is usually cheaper per gigabyte.","marks":2},
+{"id":"g9-hw-17","type":"short","difficulty":"hard","q":"Describe the role of the control unit and the ALU in the CPU.","answer":"The control unit fetches and decodes instructions and coordinates the other parts (1); the ALU carries out calculations and logical comparisons (1).","marks":2},
+{"id":"g9-hw-18","type":"match","difficulty":"medium","q":"Match each CPU part to its job.","pairs":[["ALU","Carries out calculations and logic"],["Control unit","Fetches and decodes instructions"],["Registers","Tiny, very fast storage inside the CPU"],["Bus","Carries data between components"]]},
+{"id":"g9-hw-19","type":"match","difficulty":"medium","q":"Match each translator to its description.","pairs":[["Compiler","Translates the whole program at once into machine code"],["Interpreter","Translates and runs the program line by line"],["Assembler","Translates assembly language into machine code"],["Machine code","The binary instructions the CPU can run directly"]]},
+{"id":"g9-hw-20","type":"match","difficulty":"hard","q":"Match each item to its description.","pairs":[["Firmware","Software stored permanently on a hardware device to control it"],["Device driver","Lets the operating system work with a device such as a printer"],["Compression utility","Reduces the size of files"],["Backup utility","Copies files so they can be restored later"]]}
+]
+}

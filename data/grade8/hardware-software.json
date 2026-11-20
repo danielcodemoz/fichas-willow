@@ -1,0 +1,27 @@
+{
+"grade": 8,
+"topic": "hardware-software",
+"title": "Hardware & Software",
+"questions": [
+{"id":"g8-hw-01","type":"mcq","difficulty":"easy","q":"In the fetch-decode-execute cycle, what happens during the 'fetch' stage?","options":["The result is shown on the monitor","The CPU gets the next instruction from memory","The CPU works out what the instruction means","The CPU carries out the instruction"],"answer":1},
+{"id":"g8-hw-02","type":"mcq","difficulty":"medium","q":"What is the purpose of cache memory?","options":["To connect the computer to the internet","To hold frequently used data and instructions close to the CPU for fast access","To store files permanently","To cool down the processor"],"answer":1},
+{"id":"g8-hw-03","type":"mcq","difficulty":"easy","q":"Which of these is an example of secondary storage?","options":["Cache memory","RAM","A CPU register","A solid-state drive (SSD)"],"answer":3},
+{"id":"g8-hw-04","type":"mcq","difficulty":"medium","q":"Which of these is an embedded system?","options":["The control chip in a washing machine","A school desktop computer","A laptop","A web server"],"answer":0},
+{"id":"g8-hw-05","type":"mcq","difficulty":"medium","q":"Antivirus software is an example of...","options":["application software","utility software","an input device","a programming language"],"answer":1},
+{"id":"g8-hw-06","type":"mcq","difficulty":"hard","q":"Which of these is NOT a function of an operating system?","options":["Managing memory","Managing files and folders","Controlling peripheral devices such as printers","Writing a letter for the user"],"answer":3},
+{"id":"g8-hw-07","type":"tf","difficulty":"medium","q":"Data in ROM is lost when the power is switched off.","answer":false,"explain":"ROM is non-volatile: it keeps its data without power."},
+{"id":"g8-hw-08","type":"tf","difficulty":"easy","q":"An SSD has no moving parts.","answer":true},
+{"id":"g8-hw-09","type":"tf","difficulty":"medium","q":"Utility software is a type of application software used to write letters.","answer":false,"explain":"Utility software is system software that maintains or protects the computer (e.g. antivirus, backup, compression)."},
+{"id":"g8-hw-10","type":"tf","difficulty":"hard","q":"The ALU carries out calculations and logical comparisons.","answer":true},
+{"id":"g8-hw-11","type":"fill","difficulty":"easy","q":"The ____ stores programs and data that are currently in use and is cleared when the power is off.","answer":["RAM"]},
+{"id":"g8-hw-12","type":"fill","difficulty":"medium","q":"A hard disk drive stores data on spinning ____ disks.","answer":["magnetic"]},
+{"id":"g8-hw-13","type":"fill","difficulty":"easy","q":"Software that manages the computer's hardware and other software is called the ____.","answer":["operating system"]},
+{"id":"g8-hw-14","type":"fill","difficulty":"medium","q":"CPU clock speed is measured in hertz; modern CPUs run at billions of hertz, or ____ (GHz).","answer":["gigahertz"]},
+{"id":"g8-hw-15","type":"short","difficulty":"medium","q":"Describe the three stages of the fetch-decode-execute cycle.","answer":"Fetch: the CPU gets an instruction from memory (1). Decode: the control unit works out what the instruction means (1). Execute: the instruction is carried out (1).","marks":3},
+{"id":"g8-hw-16","type":"short","difficulty":"medium","q":"State two differences between RAM and ROM.","answer":"Any two from: RAM is volatile (loses data when power is off) but ROM is non-volatile; RAM can be read and written but ROM is normally read-only; RAM holds programs and data in use but ROM holds start-up instructions (boot).","marks":2},
+{"id":"g8-hw-17","type":"short","difficulty":"hard","q":"Give two examples of embedded systems and say what each one controls.","answer":"Any two, each with a function, e.g. washing machine (controls the wash cycle); microwave oven (controls time and power); traffic lights (controls the light sequence); digital watch (keeps time).","marks":2},
+{"id":"g8-hw-18","type":"match","difficulty":"easy","q":"Match each component to its job.","pairs":[["CPU","Processes instructions"],["RAM","Temporary memory for programs in use"],["SSD","Permanent storage with no moving parts"],["Motherboard","Circuit board that connects the main components"]]},
+{"id":"g8-hw-19","type":"match","difficulty":"medium","q":"Match each software item to its description.","pairs":[["Operating system","Manages the hardware and runs programs"],["Antivirus","Utility that protects against malware"],["Word processor","Application for writing documents"],["Device driver","Lets the operating system work with a piece of hardware"]]},
+{"id":"g8-hw-20","type":"match","difficulty":"medium","q":"Match each type of storage to an example.","pairs":[["Magnetic","Hard disk drive"],["Optical","DVD"],["Solid state (flash)","USB flash drive"],["Cloud","Files kept on remote servers and used over the internet"]]}
+]
+}

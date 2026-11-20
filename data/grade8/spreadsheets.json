@@ -1,0 +1,27 @@
+{
+"grade": 8,
+"topic": "spreadsheets",
+"title": "Spreadsheets",
+"questions": [
+{"id":"g8-ss-01","type":"mcq","difficulty":"easy","q":"Which formula finds the average of the numbers in B2 to B6?","options":["=B2:B6/5","=AVERAGE(B2:B6)","=AVG(B2,B6)","=MEAN(B2-B6)"],"answer":1},
+{"id":"g8-ss-02","type":"mcq","difficulty":"easy","q":"Cells A1 to A4 contain 3, 9, 4 and 7. What does =MAX(A1:A4) return?","options":["23","3","9","4"],"answer":2},
+{"id":"g8-ss-03","type":"mcq","difficulty":"medium","q":"What does the $ sign in the reference $A$1 do?","options":["It makes the reference absolute, so it does not change when copied","It makes the number bigger","It makes the cell show money","It deletes the cell"],"answer":0},
+{"id":"g8-ss-04","type":"mcq","difficulty":"medium","q":"Cell A1 contains 45. What does =IF(A1>=50,\"Pass\",\"Fail\") display?","options":["Pass","An error","Fail","45"],"answer":2},
+{"id":"g8-ss-05","type":"mcq","difficulty":"medium","q":"Which function counts how many cells in a range contain numbers?","options":["SUM","MAX","COUNT","ROUND"],"answer":2},
+{"id":"g8-ss-06","type":"mcq","difficulty":"hard","q":"Cell C2 contains =A2*B2. It is copied down to C3. What does C3 now contain?","options":["=A3*B2","=A3*B3","=A2*B3","=A2*B2"],"answer":1},
+{"id":"g8-ss-07","type":"tf","difficulty":"easy","q":"Sorting puts the rows of data into an order, such as A to Z.","answer":true},
+{"id":"g8-ss-08","type":"tf","difficulty":"medium","q":"Filtering deletes the rows that do not match the condition.","answer":false,"explain":"Filtering only hides the rows that do not match; they are not deleted."},
+{"id":"g8-ss-09","type":"tf","difficulty":"medium","q":"By default, cell references are relative and change when a formula is copied.","answer":true},
+{"id":"g8-ss-10","type":"tf","difficulty":"easy","q":"The IF function can give different results depending on a condition.","answer":true},
+{"id":"g8-ss-11","type":"fill","difficulty":"easy","q":"The ____ function finds the smallest value in a range.","answer":["MIN"]},
+{"id":"g8-ss-12","type":"fill","difficulty":"medium","q":"A reference such as $A$1 that never changes when copied is called an ____ reference.","answer":["absolute"]},
+{"id":"g8-ss-13","type":"fill","difficulty":"medium","q":"Showing only the rows that meet a condition is called ____ the data.","answer":["filtering"]},
+{"id":"g8-ss-14","type":"fill","difficulty":"medium","q":"The ____ function counts the cells in a range that contain numbers.","answer":["COUNT"]},
+{"id":"g8-ss-15","type":"short","difficulty":"medium","q":"Explain the difference between a relative and an absolute cell reference.","answer":"A relative reference changes when the formula is copied to another cell (1); an absolute reference (e.g. $A$1) stays the same when copied (1).","marks":2},
+{"id":"g8-ss-16","type":"short","difficulty":"medium","q":"Write a formula that shows 'Pass' in C2 if the mark in B2 is 50 or more, otherwise 'Fail'.","answer":"=IF(B2>=50,\"Pass\",\"Fail\") - 1 mark for IF with the test B2>=50, 1 mark for both results in quotation marks.","marks":2},
+{"id":"g8-ss-17","type":"short","difficulty":"hard","q":"Give two things that make a chart easy to read.","answer":"Any two from: a clear title; labelled axes; a key/legend; a suitable chart type; a sensible scale.","marks":2},
+{"id":"g8-ss-18","type":"match","difficulty":"easy","q":"Match each function to what it does.","pairs":[["AVERAGE","Finds the mean of a range"],["COUNT","Counts cells that contain numbers"],["MAX","Finds the largest value"],["IF","Gives a result that depends on a test"]]},
+{"id":"g8-ss-19","type":"match","difficulty":"medium","q":"Match each reference to its type.","pairs":[["A5","Relative reference"],["$A$5","Absolute reference"],["A1:A5","Range of cells"],["A$5","Mixed reference (row fixed)"]]},
+{"id":"g8-ss-20","type":"match","difficulty":"hard","q":"Match each error message to its likely cause.","pairs":[["#DIV/0!","Dividing by zero"],["#NAME?","A function name has been spelled wrongly"],["#REF!","A cell that the formula uses has been deleted"],["#VALUE!","The formula uses the wrong type of data, such as text in a sum"]]}
+]
+}
