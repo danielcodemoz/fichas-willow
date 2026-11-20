@@ -1,0 +1,27 @@
+{
+"grade": 7,
+"topic": "spreadsheets",
+"title": "Spreadsheets",
+"questions": [
+{"id":"g7-ss-01","type":"mcq","difficulty":"easy","q":"Which cell is where column B meets row 3?","options":["3B","B3","B33","C2"],"answer":1},
+{"id":"g7-ss-02","type":"mcq","difficulty":"easy","q":"Which symbol must every spreadsheet formula start with?","options":["=","$","#","@"],"answer":0},
+{"id":"g7-ss-03","type":"mcq","difficulty":"medium","q":"Which formula adds up the numbers in cells A1 to A5?","options":["=ADD(A1:A5)","=A1+A5","=SUM(A1:A5)","=TOTAL(A1-A5)"],"answer":2},
+{"id":"g7-ss-04","type":"mcq","difficulty":"medium","q":"What is the result of the formula =2+3*4 ?","options":["24","20","14","9"],"answer":2,"explain":"Multiplication is done before addition: 3 x 4 = 12, then + 2 = 14."},
+{"id":"g7-ss-05","type":"mcq","difficulty":"easy","q":"A block of cells such as A1:C3 is called a...","options":["chart","range","formula","function"],"answer":1},
+{"id":"g7-ss-06","type":"mcq","difficulty":"medium","q":"Which type of chart is best for showing how the temperature changes over a week?","options":["Picture","Line chart","Pie chart","Table"],"answer":1},
+{"id":"g7-ss-07","type":"tf","difficulty":"easy","q":"A cell reference such as C4 gives the column letter first and then the row number.","answer":true},
+{"id":"g7-ss-08","type":"tf","difficulty":"easy","q":"Columns are labelled with numbers and rows are labelled with letters.","answer":false,"explain":"Columns use letters (A, B, C...) and rows use numbers (1, 2, 3...)."},
+{"id":"g7-ss-09","type":"tf","difficulty":"medium","q":"If you change a number that is used in a formula, the result updates automatically.","answer":true},
+{"id":"g7-ss-10","type":"tf","difficulty":"easy","q":"A spreadsheet can store only numbers, not text.","answer":false},
+{"id":"g7-ss-11","type":"fill","difficulty":"easy","q":"A spreadsheet is made up of rows, columns and ____.","answer":["cells"]},
+{"id":"g7-ss-12","type":"fill","difficulty":"medium","q":"Cell A1 contains 6 and cell A2 contains 4. The formula =A1*A2 gives the answer ____.","answer":["24"]},
+{"id":"g7-ss-13","type":"fill","difficulty":"easy","q":"The ____ function adds up a range of numbers.","answer":["SUM"]},
+{"id":"g7-ss-14","type":"fill","difficulty":"easy","q":"Horizontal lines of cells are called ____ and vertical lines of cells are called ____.","answer":["rows","columns"]},
+{"id":"g7-ss-15","type":"short","difficulty":"medium","q":"Give two advantages of using a spreadsheet instead of calculating by hand.","answer":"Any two from: calculations are fast; fewer mistakes (accurate); results update automatically when data changes; charts can be created easily; data can be sorted and filtered.","marks":2},
+{"id":"g7-ss-16","type":"short","difficulty":"easy","q":"Explain what a cell reference is.","answer":"A cell reference is the name of a cell (1), made from its column letter and row number, e.g. B3 (1).","marks":2},
+{"id":"g7-ss-17","type":"short","difficulty":"hard","q":"Describe how you would create a chart from a table of data.","answer":"Select the data including the headings (1); insert a chart and choose a suitable type (1); add a title and labels to the axes (1).","marks":3},
+{"id":"g7-ss-18","type":"match","difficulty":"easy","q":"Match each function to what it does.","pairs":[["SUM","Adds numbers"],["AVERAGE","Finds the mean"],["MAX","Finds the largest value"],["MIN","Finds the smallest value"]]},
+{"id":"g7-ss-19","type":"match","difficulty":"easy","q":"Match each spreadsheet term to its meaning.","pairs":[["Cell","One box where a row and column meet"],["Row","A horizontal line of cells labelled with a number"],["Column","A vertical line of cells labelled with a letter"],["Range","A block of cells such as A1:B5"]]},
+{"id":"g7-ss-20","type":"match","difficulty":"medium","q":"Match each chart type to its best use.","pairs":[["Pie chart","Showing parts of a whole"],["Line chart","Showing change over time"],["Bar chart","Comparing different categories"],["Scatter graph","Showing the relationship between two sets of numbers"]]}
+]
+}

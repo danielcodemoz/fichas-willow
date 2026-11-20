@@ -1,0 +1,10 @@
+{
+  "name": "fichas-willow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Willow International Computing worksheet generator (static site, no build step)",
+  "scripts": {
+    "test": "node tests/validate-bank.js && node --test tests/generator.test.js"
+  },
+  "license": "UNLICENSED"
+}

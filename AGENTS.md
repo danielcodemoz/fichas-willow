@@ -31,3 +31,9 @@ O Daniel autoriza-te a construir e **publicar** este site do início ao fim, sem
 ## Reportar no fim
 Link do site, último commit publicado (`git rev-parse --short HEAD` em main), URL do PR, páginas/secções,
 o que verificaste (saída do curl) e o que ficou por fazer.
+
+## Handoff (estado actual)
+- **Fichas Willow** = gerador de fichas de trabalho de Computing (7.º–9.º ano, Willow International): site estático em `index.html` + `js/` + `css/`, banco de perguntas em `data/` (JSON por ano/tópico, `data/index.json` é o manifesto). Interface em inglês.
+- Testes: `npm test` (valida o banco com `tests/validate-bank.js` e a lógica com `tests/generator.test.js`; sem dependências). Correr antes de cada PR.
+- Para acrescentar perguntas/tópicos: ver «Adding questions» no `README.md`. Ramos `claude/...` → PR; o merge em `main` publica em fichas-willow.danielpro.dev (só o Daniel faz merge).
+

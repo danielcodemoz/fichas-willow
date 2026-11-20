@@ -1,0 +1,27 @@
+{
+"grade": 8,
+"topic": "data-representation",
+"title": "Data Representation (Binary)",
+"questions": [
+{"id":"g8-data-01","type":"mcq","difficulty":"medium","q":"What is the binary number 00101101 in decimal?","options":["45","29","43","53"],"answer":0,"explain":"32 + 8 + 4 + 1 = 45"},
+{"id":"g8-data-02","type":"mcq","difficulty":"medium","q":"What is the decimal number 200 in 8-bit binary?","options":["10101000","11001000","11100000","11000100"],"answer":1,"explain":"128 + 64 + 8 = 200"},
+{"id":"g8-data-03","type":"mcq","difficulty":"easy","q":"In ASCII the capital letter 'A' has the code 65. What is the code for 'C'?","options":["3","66","67","68"],"answer":2},
+{"id":"g8-data-04","type":"mcq","difficulty":"easy","q":"The resolution of an image is...","options":["the size of the screen","the number of pixels it contains","the number of colours it can show","the type of file it is saved as"],"answer":1},
+{"id":"g8-data-05","type":"mcq","difficulty":"medium","q":"The colour depth of an image is...","options":["the total number of pixels","the brightness of the screen","the number of bits used to store the colour of each pixel","the width of the picture"],"answer":2},
+{"id":"g8-data-06","type":"mcq","difficulty":"hard","q":"What is the result of the binary addition 0101 + 0011?","options":["1000","1010","0110","0111"],"answer":0,"explain":"5 + 3 = 8 = 1000"},
+{"id":"g8-data-07","type":"tf","difficulty":"easy","q":"More pixels (a higher resolution) usually means a larger file size.","answer":true},
+{"id":"g8-data-08","type":"tf","difficulty":"medium","q":"ASCII can represent the writing systems of every language in the world.","answer":false,"explain":"ASCII has only a small set of characters; Unicode covers many more."},
+{"id":"g8-data-09","type":"tf","difficulty":"medium","q":"8 bits can represent 256 different values (0 to 255).","answer":true},
+{"id":"g8-data-10","type":"tf","difficulty":"medium","q":"The binary number 1111 is equal to 16 in decimal.","answer":false,"explain":"1111 = 8 + 4 + 2 + 1 = 15."},
+{"id":"g8-data-11","type":"fill","difficulty":"medium","q":"An 8-bit binary number can store values from 0 to ____.","answer":["255"]},
+{"id":"g8-data-12","type":"fill","difficulty":"easy","q":"The code that gives each character a number, such as A = 65, is called ____.","answer":["ASCII"]},
+{"id":"g8-data-13","type":"fill","difficulty":"medium","q":"The number of bits used to store the colour of each pixel is called the colour ____.","answer":["depth"]},
+{"id":"g8-data-14","type":"fill","difficulty":"hard","q":"In binary, 0110 + 0001 = ____.","answer":["0111"]},
+{"id":"g8-data-15","type":"short","difficulty":"medium","q":"Convert the decimal number 77 into 8-bit binary. Show your working.","answer":"77 = 64 + 8 + 4 + 1 (1), so the answer is 01001101 (1).","marks":2},
+{"id":"g8-data-16","type":"short","difficulty":"hard","q":"Calculate the file size, in bytes, of an image that is 10 pixels wide and 10 pixels high with a colour depth of 8 bits. Show your working.","answer":"10 x 10 = 100 pixels (1); 100 x 8 = 800 bits (1); 800 / 8 = 100 bytes (1).","marks":3},
+{"id":"g8-data-17","type":"short","difficulty":"medium","q":"Explain why an image with a higher resolution has a larger file size.","answer":"It has more pixels (1) and each pixel has to be stored using binary data (1), so more bits are needed.","marks":2},
+{"id":"g8-data-18","type":"match","difficulty":"medium","q":"Match each 8-bit binary number to its decimal value.","pairs":[["00001000","8"],["00001111","15"],["00010000","16"],["11111111","255"]]},
+{"id":"g8-data-19","type":"match","difficulty":"easy","q":"Match each character to its ASCII code.","pairs":[["Capital A","65"],["Capital B","66"],["Lower-case a","97"],["The digit 0","48"]]},
+{"id":"g8-data-20","type":"match","difficulty":"medium","q":"Match each term to its meaning.","pairs":[["Pixel","The smallest dot in an image"],["Resolution","The number of pixels in an image"],["Colour depth","The number of bits used for each pixel's colour"],["Sample rate","The number of sound measurements taken each second"]]}
+]
+}

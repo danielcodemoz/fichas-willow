@@ -1,0 +1,27 @@
+{
+"grade": 7,
+"topic": "networks-safety",
+"title": "Networks & Internet Safety",
+"questions": [
+{"id":"g7-net-01","type":"mcq","difficulty":"easy","q":"What does LAN stand for?","options":["Large Area Network","Local Area Network","Long Access Network","Linked Area Node"],"answer":1},
+{"id":"g7-net-02","type":"mcq","difficulty":"easy","q":"Which of these is the strongest password?","options":["mynameissam","T7#kLm9!pQ2x","12345678","password123"],"answer":1},
+{"id":"g7-net-03","type":"mcq","difficulty":"easy","q":"Which of these is a web browser?","options":["Google Chrome","Gmail","YouTube","Wikipedia"],"answer":0},
+{"id":"g7-net-04","type":"mcq","difficulty":"medium","q":"What is the internet?","options":["A search engine","A worldwide network of connected networks","A collection of web pages only","A type of web browser"],"answer":1},
+{"id":"g7-net-05","type":"mcq","difficulty":"medium","q":"You receive an email saying 'Your bank account is locked. Click this link and enter your password.' What should you do?","options":["Click the link quickly and type in your password","Forward it to all your friends","Do not click the link; tell a trusted adult or report it as phishing","Reply with your date of birth"],"answer":2},
+{"id":"g7-net-06","type":"mcq","difficulty":"hard","q":"Why is it a bad idea to use the same password for every account?","options":["If one account is hacked, all of your accounts are at risk","Passwords can only be used once","It is against the law","It makes the websites run slowly"],"answer":0},
+{"id":"g7-net-07","type":"tf","difficulty":"medium","q":"The World Wide Web and the internet are exactly the same thing.","answer":false,"explain":"The internet is the network of connected computers; the web is the collection of web pages that is accessed using the internet."},
+{"id":"g7-net-08","type":"tf","difficulty":"easy","q":"A WAN covers a larger area than a LAN.","answer":true},
+{"id":"g7-net-09","type":"tf","difficulty":"easy","q":"It is safe to share your password with online friends you have never met.","answer":false},
+{"id":"g7-net-10","type":"tf","difficulty":"easy","q":"Wi-Fi allows devices to connect to a network without cables.","answer":true},
+{"id":"g7-net-11","type":"fill","difficulty":"easy","q":"A network that connects computers in one building, such as a school, is called a ____.","answer":["LAN (local area network)"]},
+{"id":"g7-net-12","type":"fill","difficulty":"easy","q":"A ____ is software used to view web pages.","answer":["browser (web browser)"]},
+{"id":"g7-net-13","type":"fill","difficulty":"medium","q":"Software that is designed to harm a computer is called ____.","answer":["malware"]},
+{"id":"g7-net-14","type":"fill","difficulty":"medium","q":"Unwanted advertising emails sent to many people are called ____.","answer":["spam"]},
+{"id":"g7-net-15","type":"short","difficulty":"medium","q":"State two rules for creating a strong password.","answer":"Any two from: at least 8 characters long; mix of upper-case and lower-case letters, numbers and symbols; do not use personal information (name, birthday); do not use a common word; use a different password for each account.","marks":2},
+{"id":"g7-net-16","type":"short","difficulty":"easy","q":"Describe two things you should do if someone is bullying you online.","answer":"Any two from: tell a trusted adult (parent/teacher); do not reply; block the person; report the messages to the website; keep evidence (screenshots).","marks":2},
+{"id":"g7-net-17","type":"short","difficulty":"hard","q":"Explain the difference between the internet and the World Wide Web.","answer":"The internet is the worldwide network of connected computers and cables (1); the World Wide Web is the collection of web pages and websites that you view with a browser using the internet (1).","marks":2},
+{"id":"g7-net-18","type":"match","difficulty":"easy","q":"Match each term to its meaning.","pairs":[["Browser","Software used to view web pages"],["URL","The address of a web page"],["Search engine","A website that finds pages for a keyword"],["Hyperlink","Text or an image you click to jump to another page"]]},
+{"id":"g7-net-19","type":"match","difficulty":"medium","q":"Match each online danger to its description.","pairs":[["Phishing","Fake messages that trick you into giving personal details"],["Malware","Software designed to harm a computer"],["Spam","Unwanted messages sent to many people"],["Cyberbullying","Using technology to hurt or embarrass someone"]]},
+{"id":"g7-net-20","type":"match","difficulty":"medium","q":"Match each network term to its meaning.","pairs":[["LAN","A network in one building"],["WAN","A network covering a large area, such as countries"],["Wi-Fi","A wireless connection"],["Ethernet cable","A wired connection"]]}
+]
+}

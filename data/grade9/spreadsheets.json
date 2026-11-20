@@ -1,0 +1,27 @@
+{
+"grade": 9,
+"topic": "spreadsheets",
+"title": "Spreadsheets",
+"questions": [
+{"id":"g9-ss-01","type":"mcq","difficulty":"medium","q":"Which function counts only the cells that meet a condition, such as values over 50?","options":["SUM","COUNTIF","COUNT","ROUND"],"answer":1},
+{"id":"g9-ss-02","type":"mcq","difficulty":"medium","q":"What does =SUMIF(A1:A5,\"Red\",B1:B5) do?","options":["Adds the values in B1:B5 where the matching cell in A1:A5 is Red","Counts how many cells contain Red","Adds all the cells in A1:B5","Finds the largest value in B1:B5"],"answer":0},
+{"id":"g9-ss-03","type":"mcq","difficulty":"medium","q":"Cell A1 contains 60. What does =IF(A1>=70,\"A\",IF(A1>=50,\"B\",\"C\")) display?","options":["C","A","60","B"],"answer":3},
+{"id":"g9-ss-04","type":"mcq","difficulty":"easy","q":"Which feature changes the colour of a cell automatically when its value meets a rule?","options":["Sorting","Conditional formatting","Data validation","Freeze panes"],"answer":1},
+{"id":"g9-ss-05","type":"mcq","difficulty":"medium","q":"A cell shows #NAME?. What is the most likely cause?","options":["The formula divides by zero","A function name has been spelled wrongly","A cell used by the formula was deleted","The formula is too long"],"answer":1},
+{"id":"g9-ss-06","type":"mcq","difficulty":"hard","q":"Cell C2 contains =B2*$F$1 and is copied down to C3. What does C3 contain?","options":["=B3*$F$1","=B3*F1","=B3*$F$2","=B2*$F$1"],"answer":0},
+{"id":"g9-ss-07","type":"tf","difficulty":"medium","q":"Data validation can stop users from entering invalid data into a cell.","answer":true},
+{"id":"g9-ss-08","type":"tf","difficulty":"medium","q":"A what-if model lets you change input values to see the effect on the results.","answer":true},
+{"id":"g9-ss-09","type":"tf","difficulty":"medium","q":"An absolute reference such as $F$1 changes when it is copied down.","answer":false,"explain":"Absolute references stay fixed when copied."},
+{"id":"g9-ss-10","type":"tf","difficulty":"hard","q":"VLOOKUP searches the first column of a table for a value and returns data from another column in the same row.","answer":true},
+{"id":"g9-ss-11","type":"fill","difficulty":"medium","q":"The ____ function adds only the cells that meet a condition.","answer":["SUMIF"]},
+{"id":"g9-ss-12","type":"fill","difficulty":"medium","q":"Changing input values to see how the results change is called ____ analysis.","answer":["what-if"]},
+{"id":"g9-ss-13","type":"fill","difficulty":"medium","q":"Rules that limit what can be typed into a cell are called data ____.","answer":["validation"]},
+{"id":"g9-ss-14","type":"fill","difficulty":"hard","q":"The formula =____(A1:A10,\">50\") counts the cells that are greater than 50.","answer":["COUNTIF"]},
+{"id":"g9-ss-15","type":"short","difficulty":"hard","q":"Explain, with an example, how a nested IF can give three different results.","answer":"A second IF is placed inside the first IF (1); example: =IF(A1>=70,\"A\",IF(A1>=50,\"B\",\"C\")) (1); gives A, B or C depending on the value (1).","marks":3},
+{"id":"g9-ss-16","type":"short","difficulty":"medium","q":"Give two data validation rules suitable for a column of test marks out of 100.","answer":"Any two from: whole number only; between 0 and 100 (range check); must not be left blank; an error message if the entry is invalid.","marks":2},
+{"id":"g9-ss-17","type":"short","difficulty":"hard","q":"Describe how a spreadsheet model could be used to plan the budget for a school trip.","answer":"Enter costs (transport, tickets, food) and number of students in cells (1); use formulas to work out the total and the cost per student (1); change the inputs (what-if) to see the effect on the cost (1).","marks":3},
+{"id":"g9-ss-18","type":"match","difficulty":"medium","q":"Match each function to what it does.","pairs":[["SUMIF","Adds cells that meet a condition"],["COUNTIF","Counts cells that meet a condition"],["VLOOKUP","Finds a value in a table and returns related data"],["ROUND","Rounds a number to a set number of decimal places"]]},
+{"id":"g9-ss-19","type":"match","difficulty":"medium","q":"Match each spreadsheet feature to its purpose.","pairs":[["Conditional formatting","Changes how a cell looks when a rule is met"],["Data validation","Restricts what can be entered"],["Freeze panes","Keeps headings visible while scrolling"],["Named range","Gives a block of cells a meaningful name"]]},
+{"id":"g9-ss-20","type":"match","difficulty":"easy","q":"Match each chart part to its purpose.","pairs":[["Chart title","Says what the chart is about"],["Axis title","Says what an axis shows"],["Legend","Explains the colours or series"],["Data labels","Show the values on the chart"]]}
+]
+}

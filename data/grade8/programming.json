@@ -1,0 +1,27 @@
+{
+"grade": 8,
+"topic": "programming",
+"title": "Programming Basics (Python & Scratch)",
+"questions": [
+{"id":"g8-prog-01","type":"mcq","difficulty":"easy","q":"Which data type is the value 3.14?","options":["String","Integer","Boolean","Float"],"answer":3},
+{"id":"g8-prog-02","type":"mcq","difficulty":"easy","q":"What does this code display?","options":["73","10","An error message","7 + 3"],"answer":1,"code":"print(7 + 3)"},
+{"id":"g8-prog-03","type":"mcq","difficulty":"medium","q":"What does this code display?","options":["An error message","7 + 3","10","73"],"answer":3,"code":"print('7' + '3')","explain":"'7' and '3' are strings, so + joins them together."},
+{"id":"g8-prog-04","type":"mcq","difficulty":"easy","q":"Which symbol starts a comment in Python?","options":["<!--","**","#","//"],"answer":2},
+{"id":"g8-prog-05","type":"mcq","difficulty":"medium","q":"Which statement repeats the indented code exactly 5 times?","options":["print(5)","for i in range(5):","if i == 5:","for i in range(6):"],"answer":1},
+{"id":"g8-prog-06","type":"mcq","difficulty":"hard","q":"What does this line of code do?","options":["Creates an empty list","Converts a number into text","Prints the word Age","Asks the user for a value and converts it to a whole number"],"answer":3,"code":"age = int(input('Age: '))"},
+{"id":"g8-prog-07","type":"tf","difficulty":"easy","q":"In Python, indentation is important.","answer":true},
+{"id":"g8-prog-08","type":"tf","difficulty":"medium","q":"In Python, the == operator stores a value in a variable.","answer":false,"explain":"= stores a value; == compares two values."},
+{"id":"g8-prog-09","type":"tf","difficulty":"medium","q":"A while loop keeps repeating while its condition is True.","answer":true},
+{"id":"g8-prog-10","type":"tf","difficulty":"hard","q":"The input() function always returns a number.","answer":false,"explain":"input() always returns a string; use int() or float() to convert it."},
+{"id":"g8-prog-11","type":"fill","difficulty":"medium","q":"To join two strings together in Python we use the ____ operator.","answer":["+"]},
+{"id":"g8-prog-12","type":"fill","difficulty":"medium","q":"The Python function ____ converts text such as '25' into a whole number.","answer":["int"]},
+{"id":"g8-prog-13","type":"fill","difficulty":"medium","q":"The operator ____ gives the remainder after division.","answer":["%"]},
+{"id":"g8-prog-14","type":"fill","difficulty":"easy","q":"A ____ error is a mistake in the grammar of the code, so the program will not run.","answer":["syntax"]},
+{"id":"g8-prog-15","type":"short","difficulty":"medium","q":"Write a Python program that asks for a name and then prints 'Hello' followed by the name.","answer":"name = input('Name: ') (1); print('Hello ' + name) (1); correct syntax (1).","marks":3},
+{"id":"g8-prog-16","type":"short","difficulty":"medium","q":"Explain the difference between = and == in Python.","answer":"= assigns a value to a variable (1); == compares two values and gives True or False (1).","marks":2},
+{"id":"g8-prog-17","type":"short","difficulty":"hard","q":"What will this program display?","answer":"0 2 4 (each on a new line). 1 mark for the values 0 and 2, 1 mark for 4 / three lines.","marks":2,"code":"for i in range(3):\n    print(i * 2)"},
+{"id":"g8-prog-18","type":"match","difficulty":"medium","q":"Match each Python operator to its meaning.","pairs":[["//","Whole-number division"],["%","Remainder after division"],["**","Power (exponent)"],["==","Checks if two values are equal"]]},
+{"id":"g8-prog-19","type":"match","difficulty":"easy","q":"Match each data type to an example value.","pairs":[["int","25"],["float","2.5"],["str","'cat'"],["bool","False"]]},
+{"id":"g8-prog-20","type":"match","difficulty":"medium","q":"Match each term to its meaning.","pairs":[["Syntax error","The code breaks the rules of the language and will not run"],["Logic error","The program runs but gives the wrong result"],["Runtime error","The program crashes while running, e.g. dividing by zero"],["Debugging","Finding and fixing errors"]]}
+]
+}

@@ -1,0 +1,27 @@
+{
+"grade": 7,
+"topic": "data-representation",
+"title": "Data Representation (Binary)",
+"questions": [
+{"id":"g7-data-01","type":"mcq","difficulty":"easy","q":"Which number system do computers use to store data?","options":["Decimal","Binary","Roman numerals","Fractions"],"answer":1},
+{"id":"g7-data-02","type":"mcq","difficulty":"easy","q":"How many bits are in one byte?","options":["4","8","2","16"],"answer":1},
+{"id":"g7-data-03","type":"mcq","difficulty":"medium","q":"What is the binary number 1011 in decimal?","options":["10","9","13","11"],"answer":3,"explain":"8 + 0 + 2 + 1 = 11"},
+{"id":"g7-data-04","type":"mcq","difficulty":"medium","q":"What is the decimal number 6 in 4-bit binary?","options":["0110","1100","0011","0101"],"answer":0,"explain":"4 + 2 = 6"},
+{"id":"g7-data-05","type":"mcq","difficulty":"medium","q":"What is a pixel?","options":["A type of computer virus","A kind of keyboard","A unit of sound","The smallest single dot of colour in a digital image"],"answer":3},
+{"id":"g7-data-06","type":"mcq","difficulty":"hard","q":"How many different values can be stored using 3 bits?","options":["9","6","3","8"],"answer":3,"explain":"2 x 2 x 2 = 8 (000 to 111)."},
+{"id":"g7-data-07","type":"tf","difficulty":"easy","q":"A bit is either 0 or 1.","answer":true},
+{"id":"g7-data-08","type":"tf","difficulty":"easy","q":"Images are stored in a computer as a grid of pixels.","answer":true},
+{"id":"g7-data-09","type":"tf","difficulty":"medium","q":"The binary number 100 is equal to 100 in decimal.","answer":false,"explain":"Binary 100 = 4 in decimal."},
+{"id":"g7-data-10","type":"tf","difficulty":"easy","q":"A kilobyte is bigger than a megabyte.","answer":false},
+{"id":"g7-data-11","type":"fill","difficulty":"easy","q":"A single binary digit (0 or 1) is called a ____.","answer":["bit"]},
+{"id":"g7-data-12","type":"fill","difficulty":"easy","q":"A group of 8 bits is called a ____.","answer":["byte"]},
+{"id":"g7-data-13","type":"fill","difficulty":"easy","q":"Binary uses only the digits ____ and ____.","answer":["0","1"]},
+{"id":"g7-data-14","type":"fill","difficulty":"easy","q":"Pictures on a screen are made of tiny dots called ____.","answer":["pixels"]},
+{"id":"g7-data-15","type":"short","difficulty":"medium","q":"Explain why computers use binary.","answer":"Computers are made of electronic circuits/switches (1) that have only two states, on and off, which can be represented by 1 and 0 (1).","marks":2},
+{"id":"g7-data-16","type":"short","difficulty":"medium","q":"Convert the decimal number 9 into 4-bit binary. Show your working.","answer":"9 = 8 + 1 (1), so the answer is 1001 (1).","marks":2},
+{"id":"g7-data-17","type":"short","difficulty":"hard","q":"Describe how a simple black-and-white picture can be stored using binary.","answer":"The picture is split into a grid of pixels (1); each pixel is stored as a single bit, e.g. 0 for white and 1 for black (1).","marks":2},
+{"id":"g7-data-18","type":"match","difficulty":"easy","q":"Match each unit to its meaning.","pairs":[["Bit","A single 0 or 1"],["Byte","8 bits"],["Kilobyte","About one thousand bytes"],["Megabyte","About one million bytes"]]},
+{"id":"g7-data-19","type":"match","difficulty":"medium","q":"Match each 4-bit binary number to its decimal value.","pairs":[["0001","1"],["0101","5"],["1000","8"],["1111","15"]]},
+{"id":"g7-data-20","type":"match","difficulty":"medium","q":"Match each type of data to how it is stored.","pairs":[["Text","Each character has a binary code"],["Image","A grid of pixels, each with a colour code"],["Sound","The sound wave is measured many times a second"],["Video","Many images (frames) shown quickly, plus sound"]]}
+]
+}

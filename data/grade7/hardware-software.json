@@ -1,0 +1,27 @@
+{
+"grade": 7,
+"topic": "hardware-software",
+"title": "Hardware & Software",
+"questions": [
+{"id":"g7-hw-01","type":"mcq","difficulty":"easy","q":"Which of these is an INPUT device?","options":["Printer","Monitor","Keyboard","Speaker"],"answer":2},
+{"id":"g7-hw-02","type":"mcq","difficulty":"easy","q":"Which part of the computer carries out instructions and does the processing?","options":["The CPU","The monitor","The hard disk","The keyboard"],"answer":0},
+{"id":"g7-hw-03","type":"mcq","difficulty":"medium","q":"Which type of memory loses its contents when the computer is switched off?","options":["A USB flash drive","ROM","A hard disk drive","RAM"],"answer":3},
+{"id":"g7-hw-04","type":"mcq","difficulty":"medium","q":"A touch screen is an example of...","options":["an input device only","both an input device and an output device","an output device only","a storage device"],"answer":1},
+{"id":"g7-hw-05","type":"mcq","difficulty":"medium","q":"Which of these is an example of system software?","options":["A spreadsheet program","A word processor","An operating system","A photo editing program"],"answer":2},
+{"id":"g7-hw-06","type":"mcq","difficulty":"hard","q":"Which job is done by the operating system?","options":["Creating web pages automatically","Writing letters and reports for the user","Making the screen brighter","Managing files and sharing the computer's memory and processor between programs"],"answer":3},
+{"id":"g7-hw-07","type":"tf","difficulty":"easy","q":"A mouse is an output device.","answer":false,"explain":"A mouse sends data INTO the computer, so it is an input device."},
+{"id":"g7-hw-08","type":"tf","difficulty":"easy","q":"Software is the set of instructions (programs) that tells the hardware what to do.","answer":true},
+{"id":"g7-hw-09","type":"tf","difficulty":"medium","q":"RAM keeps its data permanently, even when the power is off.","answer":false,"explain":"RAM is volatile: its data is lost when the power is off."},
+{"id":"g7-hw-10","type":"tf","difficulty":"easy","q":"A printer can be used to produce a hard copy (a paper copy) of a document.","answer":true},
+{"id":"g7-hw-11","type":"fill","difficulty":"easy","q":"The ____ is the part of the computer that carries out instructions.","answer":["CPU (processor)"]},
+{"id":"g7-hw-12","type":"fill","difficulty":"easy","q":"A monitor and a printer are examples of ____ devices.","answer":["output"]},
+{"id":"g7-hw-13","type":"fill","difficulty":"medium","q":"Programs such as a word processor or spreadsheet are called ____ software.","answer":["application"]},
+{"id":"g7-hw-14","type":"fill","difficulty":"easy","q":"The physical parts of a computer that you can touch are called ____.","answer":["hardware"]},
+{"id":"g7-hw-15","type":"short","difficulty":"easy","q":"State two examples of input devices.","answer":"Any two from: keyboard, mouse, microphone, scanner, webcam, touch screen, joystick.","marks":2},
+{"id":"g7-hw-16","type":"short","difficulty":"medium","q":"Explain the difference between hardware and software.","answer":"Hardware is the physical parts of a computer that you can touch (1). Software is the programs / instructions that run on the hardware (1).","marks":2},
+{"id":"g7-hw-17","type":"short","difficulty":"hard","q":"Give two reasons why a computer needs an operating system.","answer":"Any two from: manages hardware and memory; lets the user interact with the computer (user interface); runs and manages applications; manages files and folders; provides security (passwords/accounts).","marks":2},
+{"id":"g7-hw-18","type":"match","difficulty":"easy","q":"Match each device to what it is used for.","pairs":[["Keyboard","Entering text and numbers"],["Monitor","Displaying text and images"],["Speakers","Producing sound"],["USB flash drive","Storing files you can carry with you"]]},
+{"id":"g7-hw-19","type":"match","difficulty":"medium","q":"Match each software example to its type.","pairs":[["Windows","Operating system"],["Microsoft Word","Word processor"],["Microsoft Excel","Spreadsheet program"],["Google Chrome","Web browser"]]},
+{"id":"g7-hw-20","type":"match","difficulty":"medium","q":"Match each term to its meaning.","pairs":[["CPU","Processes instructions"],["RAM","Temporary memory for programs in use"],["Hard disk","Permanent storage for files"],["Operating system","Software that manages the computer"]]}
+]
+}

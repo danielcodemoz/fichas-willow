@@ -1,10 +1,122 @@
 <!doctype html>
-<html lang="pt-MZ">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Em breve</title>
-<style>body{font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0;background:#0f172a;color:#e2e8f0}main{text-align:center;padding:2rem}</style>
+<title>Willow Worksheet Generator – Computing Grades 7–9</title>
+<meta name="description" content="Build printable A4 Computing worksheets and answer keys for Willow International lower secondary classes (Grades 7, 8 and 9).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b4ea2'/%3E%3Cpath d='M18 14h28v6H24v10h18v6H24v14h-6z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body><main><h1>Em breve</h1><p>Site em construção — Danielpro.</p></main></body>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">W</span>
+      <div>
+        <h1>Willow Worksheet Generator</h1>
+        <p>Computing · Lower Secondary · Grades 7–9</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="panel" aria-labelledby="controls-title">
+    <h2 id="controls-title">Build a worksheet</h2>
+    <form id="controls" autocomplete="off">
+
+      <fieldset>
+        <legend>Grade</legend>
+        <div class="seg" id="grade-seg" role="radiogroup" aria-label="Grade">
+          <label><input type="radio" name="grade" value="7" checked><span>Grade 7</span></label>
+          <label><input type="radio" name="grade" value="8"><span>Grade 8</span></label>
+          <label><input type="radio" name="grade" value="9"><span>Grade 9</span></label>
+        </div>
+      </fieldset>
+
+      <div class="field">
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic"></select>
+      </div>
+
+      <fieldset>
+        <legend>Difficulty</legend>
+        <div class="seg" role="radiogroup" aria-label="Difficulty">
+          <label><input type="radio" name="difficulty" value="mixed" checked><span>Mixed</span></label>
+          <label><input type="radio" name="difficulty" value="easy"><span>Easy</span></label>
+          <label><input type="radio" name="difficulty" value="medium"><span>Medium</span></label>
+          <label><input type="radio" name="difficulty" value="hard"><span>Hard</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Questions <span class="muted">(how many of each type)</span></legend>
+        <div id="counts" class="counts"></div>
+        <p class="total-line" id="total-line" aria-live="polite"></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Worksheet details</legend>
+        <div class="field">
+          <label for="school">School name</label>
+          <input type="text" id="school" value="Willow International" maxlength="60">
+        </div>
+        <div class="field">
+          <label for="title">Title <span class="muted">(blank = automatic)</span></label>
+          <input type="text" id="title" placeholder="e.g. Unit 1 quiz" maxlength="80">
+        </div>
+        <label class="check"><input type="checkbox" id="opt-marks" checked> Show marks for each question</label>
+        <label class="check"><input type="checkbox" id="opt-wordbank"> Word bank for fill-in-the-blank</label>
+        <label class="check"><input type="checkbox" id="opt-seed" checked> Print the seed on the worksheet</label>
+      </fieldset>
+
+      <div class="field">
+        <label for="seed">Seed <span class="muted">(same seed + same settings = same worksheet)</span></label>
+        <div class="seed-row">
+          <input type="text" id="seed" maxlength="16" spellcheck="false" autocapitalize="characters">
+          <button type="button" id="btn-reseed" class="btn ghost" title="New random seed">New seed</button>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button type="submit" class="btn primary" id="btn-generate">Generate worksheet</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="output" aria-labelledby="output-title">
+    <div class="output-bar">
+      <h2 id="output-title" class="sr-only">Worksheet preview</h2>
+      <div class="tabs" role="tablist" aria-label="Preview">
+        <button role="tab" id="tab-sheet" aria-selected="true" aria-controls="sheet" class="tab">Worksheet</button>
+        <button role="tab" id="tab-key" aria-selected="false" aria-controls="key" class="tab">Answer key</button>
+      </div>
+      <div class="out-actions">
+        <button type="button" class="btn" id="btn-print" disabled>Print / Save as PDF</button>
+        <button type="button" class="btn ghost" id="btn-print-both" disabled title="Worksheet followed by the answer key">Print both</button>
+        <button type="button" class="btn ghost" id="btn-link" disabled title="Copy a link that rebuilds this exact worksheet">Copy link</button>
+      </div>
+    </div>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <div id="notes" class="notes" hidden></div>
+
+    <div id="empty" class="empty">
+      <p><strong>Pick a grade and topic, then press “Generate worksheet”.</strong></p>
+      <p>Your worksheet and a separate answer key appear here, ready to print on A4. In the print window choose <em>Save as PDF</em> to keep a digital copy.</p>
+    </div>
+
+    <article id="sheet" class="paper" role="tabpanel" aria-labelledby="tab-sheet" hidden></article>
+    <article id="key" class="paper key" role="tabpanel" aria-labelledby="tab-key" hidden></article>
+  </section>
+</main>
+
+<footer class="foot">
+  Willow International · Computing worksheet generator · Question bank is stored in the <code>data/</code> folder.
+</footer>
+
+<noscript><p class="noscript">This tool needs JavaScript to build worksheets.</p></noscript>
+<script src="js/generator.js"></script>
+<script src="js/app.js"></script>
+</body>
 </html>
